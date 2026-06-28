@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    background-color: rgb(16 32 47);
+    height: 20vh;
+}
+h1{
+    color: rgb(111 95 39);
+}
+.list{
+    display: inline-block;
+    background-color: aqua;
+    float: left;
+    width: 50%;
+}
+
+.list p{
+    width: 55%;
+    display: inline-block;
+}
+.list img{
+    width: 300px;
+    height: 200px;
+    display:  inline-block;
+    text-align: center;
+
+}
+.clr{
+    clear: both;
+}
