@@ -10,7 +10,6 @@ h1{
     color: rgb(111 95 39);
 }
 .list{
-    display: inline-block;
     background-color: aqua;
     float: left;
     width: 50%;
@@ -19,6 +18,7 @@ h1{
 .list p{
     width: 55%;
     display: inline-block;
+       
 }
 .list img{
     width: 300px;
@@ -29,4 +29,28 @@ h1{
 }
 .clr{
     clear: both;
+}
+
+@media screen and (max-width:480px) {
+    .navbar{
+        width:100%;
+        padding-top: 30px;
+    }
+    h1{
+        margin-bottom: 30px;
+    }
+    .navbar p{
+        width: 70%;
+    }
+    .list{
+        width: 100%;
+        padding-top: 30px;
+        /* padding-left:30px ; */
+    }
+    .list p{
+        width: 90%;
+    }
+    .list img{
+        width:100%
+    }
 }
